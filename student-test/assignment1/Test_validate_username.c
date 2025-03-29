@@ -20,7 +20,7 @@ void test_validate_my_username()
      */
     //char *my_name = malloc_username_from_conf_file();
     const char *actual_username = malloc_username_from_conf_file();
-    const char *expected_username = m_username();
+    const char *expected_username = my_username();
    TEST_ASSERT_EQUAL_STRING(expected_username,actual_username);
     //TEST_ASSERT_TRUE_MESSAGE(false,"AESD students, please fix me!");
 }
